@@ -10,4 +10,4 @@ jobs:
       - name: list all again
         run: |
           ls -al
-          cat .github/workflows/first.yaml
+          cat .github/workflows/first.yml

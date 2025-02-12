@@ -9,5 +9,5 @@ jobs:
       - uses: actions/checkout@v3
       - name: list all again
         run: |
-          ls-al
+          ls -al
           cat .github/workflows/first.yaml

@@ -33,9 +33,9 @@ jobs:
         run: chmod +x gradle
         shell: bash
      
-      - name: Gradle Init
-        run: gradle init
-        shell: bash
+      # - name: Gradle Init
+      #   run: gradle init
+      #   shell: bash
 
       - name: Build with Gradle
         run: gradle build

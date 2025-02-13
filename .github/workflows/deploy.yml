@@ -36,6 +36,7 @@ jobs:
       - name: Build with Gradle
         run: gradle build
         shell: bash
+        working-directory: .
         # Gradle로 프로젝트를 빌드합니다. 결과물(JAR 파일 등)이 생성
       - name: Make Zip File
         run: zip -qq -r ./$GITHUB_SHA.zip .
